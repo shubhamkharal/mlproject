@@ -1,6 +1,6 @@
 import sys 
 # The sys library will automatically have the info of any exception that is being generated in the current runtime environment.
-from logger import logging
+from src.logger import logging
 
 def error_message_detail(error, error_detail: sys):
     _, _, exc_tb = error_detail.exc_info()
